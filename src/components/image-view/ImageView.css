@@ -1,0 +1,45 @@
+.cardBackContainer {
+    padding: 10px;
+    border-radius: 1rem;
+    font-size: 8px;
+}
+.width100 {
+    width: 100%;
+}
+.imageDescription {
+    background-color: #FFF;
+    font-size: 1rem;
+    overflow: auto;
+    text-align: center;
+}
+.imageDescription::-webkit-scrollbar {
+    display: none;
+}
+.imageName {
+    margin: 0;
+    color: #3f51b5;
+}
+.imageOwner {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.54);
+    white-space: nowrap;
+}
+.imageBackground {
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    height: 80%;
+    background-size: cover;
+}
+.imageViewContainer {
+    display: grid;
+    grid-gap: 10px;
+    margin: 8px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 200px;
+    grid-auto-flow: row;
+}
